@@ -1,0 +1,7 @@
+(channel
+  (version 0)
+  (url "https://github.com/betodealmeida/guix-channel.git")
+  (dependencies
+    (channel
+      (name 'guix)
+      (url "https://git.savannah.gnu.org/git/guix.git"))))
