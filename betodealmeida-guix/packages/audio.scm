@@ -4,6 +4,7 @@
   #:use-module (guix git-download)
   #:use-module (guix build-system cmake)
   #:use-module ((guix licenses) #:prefix license:)
+  #:use-module (gnu packages fonts)
   #:use-module (gnu packages fontutils)
   #:use-module (gnu packages linux)
   #:use-module (gnu packages pkg-config)
@@ -29,6 +30,9 @@
     (build-system cmake-build-system)
     (inputs
      `(("alsa-lib" ,alsa-lib)
+       ("font-dejavu" ,font-dejavu)
+       ("fontconfig" ,fontconfig)
+       ("font-liberation" ,font-liberation)
        ("freetype" ,freetype)
        ("libx11" ,libx11)
        ("libxcomposite" ,libxcomposite)
