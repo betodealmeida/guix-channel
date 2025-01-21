@@ -30,9 +30,12 @@
     (inputs
      `(("alsa-lib" ,alsa-lib)
        ("freetype" ,freetype)
+       ("libx11" ,libx11)
        ("libxcursor" ,libxcursor)
+       ("libxext" ,libxext)
        ("libxinerama" ,libxinerama)
        ("libxrandr" ,libxrandr)
+       ("libxshmfence" ,libxshmfence)
        ("pkg-config" ,pkg-config)
        ("sdl2" ,sdl2)
        ("xorg-server" ,xorg-server)))
